@@ -161,6 +161,10 @@ footer {
     margin: 5px 0;
 }
 
+#fourth-widget {
+    float: right;
+}
+
 #content {
     padding-left: 220px
 }
