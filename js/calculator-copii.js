@@ -28,7 +28,3 @@ console.info(rezultat);
 rezultat = catFacAdunareaNumerelor(7, 2);
 console.info(rezultat);
 
-
-// min -= 2;
-
-// site - in functie de ora, se schimba anumite atribute
