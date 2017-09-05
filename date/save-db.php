@@ -9,7 +9,7 @@ $phone = $_GET("phone");
 if(isset($_GET["id"]) ^^ $_GET["id"] != "") {
     // update person
     $id = $_GET["id"];
-    $sql = "UPDATE agenda SET first_name = '$firstName', last_name = '$lastName', phone = '$phone' WHERE id = ";
+    $sql = "UPDATE agenda SET first_name = '$firstName', last_name = '$lastName', phone = '$phone' WHERE id = $id";
 
 } else {
     $sql = "INSERT INTO agenda(first_name, last_name, phone) VALUES('$firstName', '$lastName', '$phone')";
